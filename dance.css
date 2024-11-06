@@ -1,0 +1,345 @@
+body{}
+.container{
+    background-image: url(https://images.alphacoders.com/290/thumb-1920-290711.jpg);
+    height: 90vh;
+    /* width: 100vw; */
+    background-size: cover; /* This makes the image cover the container without distorting */
+    background-position: center; /* This centers the image in the container */
+    background-repeat: no-repeat;
+    color: white;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+
+.container1_left ul {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.container1_left ul li,
+.conatiner1_right ul li{
+    margin: 10px;
+    list-style-type: none;
+}
+
+.container1_left .circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: white;
+    border: 8px solid olive;
+}
+.conatiner1_right ul {
+    font-size: 25px;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+
+}
+.container2{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-top: 90px;
+}
+.container2_heading{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.container2 img {
+    border-radius: 12px;
+    margin-left: 20px;
+    height: 80px;
+    width: 50px;
+
+}
+.container3_heading{
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: 50px;
+    padding:10px;
+    margin-top: 110px;
+}
+.container3text{
+    margin-left: 100px;
+    font-size: 30px;
+}  
+.container3_button{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 40px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.containerh{
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-style: italic;
+}
+.container_cardinner{
+    display: flex; 
+    flex-direction:row;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.container_card1 img{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+    height: 35vh;
+    width: 18vw;
+}
+.container_cardheading{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.container_cardbutton{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 40px;
+    border-radius: 20px;
+    margin-left: 105px;
+    background-color: blue;
+    color: white;
+    padding: 10px 6%;
+
+}
+.container_cardtext{
+    width: 20vw;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.box{
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(234, 218, 218);
+    display: flex;
+    flex-direction: row;
+}
+.box_left{
+    width: 50vw;
+    height: 50vh;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.boxheading{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-style: italic;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.boxtext{
+    font-size: 20px;
+    height: 50vh;
+    width: 40vw;
+    /* font-style: italic; */
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+.box_right img{
+    height: 80vh;
+    width: 40vw;
+    margin-top: 30px;
+    margin-left: 10px;
+   
+}
+.box1{
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 30px;
+    padding: 30px;
+    height: 50vh;
+    
+
+}
+.box1_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxinner {
+    height: 35vh;
+    width: 20vw;
+    margin-left: 10px;
+    margin: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.box3{
+    background-color: rgb(89, 89, 240);
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-top: 30px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.boxinner1{
+    margin: 20px;
+}
+.boxinner_text{
+    font-size: 20px;
+    margin-top: 10px;
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    text-align: center;
+
+}
+.boxinnerheading{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.contactbox{
+    height: 60vh;
+    width: 90vw;
+    margin-left: 30px;
+    /* background-color: rgb(242, 213, 213); */
+}
+.contactheading{
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+.contactinner{
+    height: 40vh;
+    /* width: 50vw; */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.contactleft{
+    margin-left: 50px;
+    width: 30vw;
+
+}
+.contactleft button{
+    margin-left: 570px;
+   border-radius: 20px;
+    background-color: blue;
+    color: white;
+    padding: 20px 40px;
+    font-size: 20px;
+   margin-top: 20px;
+}
+.contactleft input{
+    font-weight: bold;
+    height: 8vh;
+    width: 30vw;
+    margin: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 3px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.contactright textarea{
+    margin-left: 120px;
+    margin-top: 30px;
+    width: 40vw;    
+    height: 32vh;  
+    padding: 10px;  
+    font-size: 16px; 
+    border: 3px solid black;
+    border-radius: 10px ; 
+    display: flex;
+    text-align: center;
+    
+}
+.map{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+.mapleft{
+    height: 50vh;
+    width: 60vw;
+    margin-left: 30px;
+}
+.mapleft img{
+    width: 50vw;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+/* .mapheading{
+    font-weight: bold;
+    margin-top: 40px;
+    margin: 20px;
+} */
+.headingmap{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.textmap{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.mapinnerright{
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+.mapright{
+    /* display: flex;
+    flex-direction: row; */
+}
+.mapinner{
+    display: flex;
+    flex-direction: row;
+}
+.mapinnerleft{
+    margin-top: 80px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(231, 60, 60);
+    border-radius: 80px;
+}
